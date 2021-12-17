@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    
+    <title>Bari</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="cover">
+            <div class="cover-image">
+                <img src="assets/Polignano-beaches_1400x600--fill--1400x600.jpg" alt="">
+            </div>
+             
+            <div class="cover-title">
+                <div class="title-time">
+                    <div class="time-country">Your time in  <div class="country-code"></div></div>
+                   
+                    <div class="time-clock">12:30</div>
+                </div>
+                
+                <div>
+                <h1 class="ml2">Bari</h1>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                    <script>
+                        var textWrapper = document.querySelector('.ml2');
+                        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+                        anime.timeline({loop: true})
+                        .add({
+                        targets: '.ml2 .letter',
+                        scale: [4,1],
+                        opacity: [0,1],
+                        translateZ: 0,
+                        easing: "easeOutExpo",
+                        duration: 950,
+                         delay: (el, i) => 70*i
+                        }).add({
+                         targets: '.ml2',
+                         opacity: 0,
+                          duration: 1000,
+                           easing: "easeOutExpo",
+                          delay: 1000
+                        });
+                    </script>
+                </div>
+
+                <nav>
+                    <a href="index.html">More about Bari</a>
+                </nav>
+            
+            <div class="title-next">
+                    Next image →
+                </div>
+
+                
+            </div>
+            
+            </div>
+        </div>
+
+        <div class="weather">
+            <div class="weather-now">
+                <div class="weather-today">
+                    Weather in Bari
+                    <div class="weather-api">
+                       
+                    </div>
+                </div>
+                <div class="weather-tomorrow">
+                   Tomorrow
+                    <div class="weather-api-tomorrow">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="show-image">
+                <div class="hidden-image">
+                    <img src="assets/map.jpg" alt="">
+
+                </div>
+                <div class="show-button">
+                    <div class="button-text">Image</div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+
+        </div>
+
+    </div>
+    <script src="scripts/app2.js"></script>
+</body>
+</html>
