@@ -76,7 +76,7 @@ nav {
 
 .map {
     display: flex;
-    height: 180vh;
+    height: 150vh;
     min-height: 200vh;
     width: 100vh;
     position: relative;
