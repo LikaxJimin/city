@@ -150,13 +150,13 @@ a:visited {
 }
 
 .show-button {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+    position: absolute;
     color: white;
-    font-size: 10px;
-    padding: 10px;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 15%;
 }
 .button-text{
     background-color: white;
