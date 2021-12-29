@@ -124,6 +124,10 @@ a:visited {
     text-align: center;
     flex: 1;
 }
+
+.list-item {
+    padding: 20%;
+}
 .list-item img {
     width: 60%;
     display: flex;
