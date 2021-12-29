@@ -114,6 +114,7 @@ a:visited {
     width: 20%;
     height: 30%;
     position: absolute;
+    padding: 30px;
 }
 .button-item {
     background-color: rgb(3, 23, 54);
