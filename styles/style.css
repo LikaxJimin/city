@@ -155,8 +155,8 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 60%;
+    height: 30%;
+    width: 15%;
 }
 .button-text{
     background-color: white;
