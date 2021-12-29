@@ -125,7 +125,9 @@ a:visited {
     flex: 1;
 }
 .list-item img {
-    size: 50%;
+    width: 60%;
+    display: flex;
+
 }
 
 .show-image {
