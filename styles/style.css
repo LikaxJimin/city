@@ -140,10 +140,10 @@ a:visited {
     flex-direction: column;
     justify-content: space-around;
     width: 70vh;
-    height: 210vh;
-    max-height: 210vh;
+    height: 212vh;
+    max-height: 212vh;
     position: relative;
-    top: 11px; left: -20px;
+    top: 10px; left: -20px;
     
 }
 .button-item {
