@@ -139,11 +139,11 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 90vh;
+    width: 70vh;
     height: 200vh;
     max-height: 200vh;
     position: relative;
-    top: 20px; left: -20px;
+    top: 12px; left: -20px;
     
 }
 .button-item {
