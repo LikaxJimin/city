@@ -55,15 +55,11 @@ body {
     display: inline 
 }
 
-.ml2 {
-    font-weight: 900;
-    font-size: 3.5em;
+.title-city {
+    font-size: 190px;
 }
   
-.ml2.letter {
-    display: inline-block;
-    line-height: 1em;
-}
+
 
 
 .title-next {
