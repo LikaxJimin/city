@@ -107,24 +107,7 @@ a:hover{
 a:visited {
     color: rgb(255, 255, 255);
 }
-.buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 20%;
-    height: 30%;
-    position: absolute;
-    padding: 100px;
-}
-.button-item {
-    background-color: rgb(3, 23, 54);
-    padding: 40px 40px 0px 40px;
-    border-radius: 10px;
-    font-size: 50px;
-    margin: 20px;
-    text-align: center;
-    flex: 1;
-}
+
 
 .list-item {
     padding: 2%;
@@ -148,6 +131,25 @@ a:visited {
     height: 100%;
     object-fit: cover;
     border-radius: 2vw;
+
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    
+}
+.button-item {
+    background-color: rgb(3, 23, 54);
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+    flex: 1;
 }
 
 .show-button {
