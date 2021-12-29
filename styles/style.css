@@ -150,10 +150,11 @@ a:visited {
 }
 
 .show-button {
-    position: absolute;
+    position: fixed;
     color: white;
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
     height: 30%;
     width: 15%;
 }
