@@ -137,8 +137,8 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 20%;
-    height: 30%;
+    width: 100vh;
+    height: 50vh;
     position: absolute;
     
 }
