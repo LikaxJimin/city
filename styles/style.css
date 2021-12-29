@@ -76,11 +76,11 @@ nav {
 
 .map {
     display: flex;
-    height: 200vh;
-    min-height: 200vh;
+    height: 210vh;
+    min-height: 210vh;
     width: 100vh;
     position: relative;
-    top: 30px; left: -10px;
+    top: 30px; left: -30px;
 }
     
 
