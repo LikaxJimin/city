@@ -72,8 +72,6 @@ body {
 nav {
     background-color: rgb(0, 0, 0);
     padding: 15px 15px 10px 20px;
-    color: black;
-    border-radius: 70px;
     cursor: pointer;
 }
 nav.visited {
