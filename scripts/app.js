@@ -11,7 +11,7 @@ title.addEventListener('mouseover', function(){
     let green = Math.floor(Math.random() * 255);
     let blue = Math.floor(Math.random() * 255);
     title.style.setProperty('color', 'rgb(' +red+',' +green+','+blue+')');
-    let image = 0
+     let image = 0
 let imageObject = document.querySelector('.cover-image img');
 })
 let button = document.querySelector('.title-next')
